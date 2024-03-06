@@ -13,8 +13,8 @@ namespace YourNamespace
             
             var babysitters = new List<Babysitter>
             {
-                new Babysitter("Babysitter 1", 25, "Experienced"),
-                new Babysitter("Babysitter 2", 30, "Certified"),
+                new Babysitter("Niyomi Khalid", 33, "Experienced"),
+                new Babysitter("Ayra Shahid", 3, "Certified"),
                 // Add more babysitters here...
             };
             return babysitters;

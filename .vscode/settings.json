@@ -1,3 +1,6 @@
 {
-    "dotnet.defaultSolution": "BabbySitterWebApp.sln"
+    "dotnet.defaultSolution": "BabbySitterWebApp.sln",
+    "appService.preDeployTask": "publish-release",
+    "appService.deploySubpath": "BabbySitterWebApp/bin/Release/net8.0/publish",
+    "appService.defaultWebAppToDeploy": "/subscriptions/1faa4ea7-8cd3-4a58-b9dd-d2938d30f4c5/resourceGroups/MuslimBabySitter-dev/providers/Microsoft.Web/sites/MuslimBabySitter"
 }
