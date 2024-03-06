@@ -1,0 +1,6 @@
+@BabbySitterWebApp_HostAddress = http://localhost:5296
+
+GET {{BabbySitterWebApp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

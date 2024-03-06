@@ -1,0 +1,27 @@
+using Microsoft.EntityFrameworkCore;
+using BabbySitter.Models;
+
+public class AppDbContext : DbContext
+{
+    public DbSet<Babysitter> Babysitters { get; set; }
+    public DbSet<Certificate> Certificates { get; set; }
+    public DbSet<BabysitterCertificate> BabysitterCertificates { get; set; }
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        base.OnModelCreating(modelBuilder);
+
+        // modelBuilder.Entity<BabysitterCertificate>()
+        //     .HasKey(bc => new { bc.BabysitterId, bc.CertificateId });
+
+        // modelBuilder.Entity<BabysitterCertificate>()
+        //     .HasOne(bc => bc.Babysitter)
+        //     .WithMany(b => b.BabysitterCertificates)
+        //     .HasForeignKey(bc => bc.BabysitterId);
+
+        // modelBuilder.Entity<BabysitterCertificate>()
+        //     .HasOne(bc => bc.Certificate)
+        //     .WithMany(c => c.BabysitterCertificates)
+        //     .HasForeignKey(bc => bc.CertificateId);
+    }
+}
