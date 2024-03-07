@@ -1,6 +1,18 @@
 # babysitter
 
 
+## Database 
+
+local `babysitter-dev` 
+
+- export ASPNETCORE_ENVIRONMENT=Development
+- dotnet ef migrations add InitialCreate
+- dotnet ef database update
+
+export ASPNETCORE_ENVIRONMENT=Production
+dotnet ef database update
+
+
 ## Setup answer from ChatGPT 4.0
 
 Ok. what the best way to set this up in .net. I am creating a app where I connect parent with baby sitters. I want to run on azure and have mobile app in android and ios quickly

@@ -44,9 +44,9 @@ namespace BabbySitter.Models
         // public string Location { get; set; }
 
         // Relationships - Example if you have ratings or reviews for babysitters
-        public virtual ICollection<Review> Reviews { get; set; }
+        public virtual ICollection<BabbySitterReview> Reviews { get; set; }
 
         // Additional properties like Certifications, Skills, etc.
-        public virtual ICollection<Certificate> Certifications { get; set; }
+        public virtual ICollection<BabysitterCertificate> Certifications { get; set; }
     }
 }

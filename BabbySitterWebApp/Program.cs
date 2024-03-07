@@ -1,3 +1,6 @@
+using BabbySitter.Data;
+using BabbySitter.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.

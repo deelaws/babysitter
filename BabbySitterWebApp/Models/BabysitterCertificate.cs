@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BabbySitter.Models;
 
-public class Certificate
+public class BabysitterCertificate
 {
     [Key]
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]

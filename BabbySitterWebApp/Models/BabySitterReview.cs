@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace BabbySitter.Models;
 
 // If you include relationships, define those models as well. Example:
-public class Review
+public class BabbySitterReview
 {
     [Key]
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
