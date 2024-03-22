@@ -50,3 +50,7 @@ Implement authentication using AAD B2C and secure your Web API.
 Develop your web frontend and mobile apps, ensuring they consume your Web API for data and operations.
 Utilize Azure DevOps or GitHub Actions to automate your builds and deployments to Azure.
 This setup leverages the power of .NET and Azure to deliver a scalable, secure, and maintainable platform, enabling you to focus on creating features that matter to your users.
+
+## .Net Maui Commands
+
+Run on command line: `dotnet build -t:Run -f net8.0-ios -p:_DeviceName=E3E12530-B2B3-4C79-9EC2-043D23CC500A -p:RuntimeIdentifier=ios-arm64`

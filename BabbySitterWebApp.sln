@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BabbySitterWebApp", "BabbySitterWebApp\BabbySitterWebApp.csproj", "{A6811840-EB72-4C4D-992A-CB1E8755C6A7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileAppMaui", "MobileAppMaui\MobileAppMaui.csproj", "{F1EA213C-5C0D-4C9E-B67D-31145499247E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A6811840-EB72-4C4D-992A-CB1E8755C6A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6811840-EB72-4C4D-992A-CB1E8755C6A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6811840-EB72-4C4D-992A-CB1E8755C6A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1EA213C-5C0D-4C9E-B67D-31145499247E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1EA213C-5C0D-4C9E-B67D-31145499247E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1EA213C-5C0D-4C9E-B67D-31145499247E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1EA213C-5C0D-4C9E-B67D-31145499247E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
