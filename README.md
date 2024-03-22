@@ -53,4 +53,6 @@ This setup leverages the power of .NET and Azure to deliver a scalable, secure, 
 
 ## .Net Maui Commands
 
+Dev Express packages: https://docs.devexpress.com/MAUI/404024/get-started/register-nuget-gallery
+
 Run on command line: `dotnet build -t:Run -f net8.0-ios -p:_DeviceName=E3E12530-B2B3-4C79-9EC2-043D23CC500A -p:RuntimeIdentifier=ios-arm64`
